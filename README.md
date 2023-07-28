@@ -12,10 +12,14 @@
  ## Technologies & Frameworks
 
  - Python 3.8
- - GTTS Module
  - SpeechRecognition Module
- - Playsound Module
+ - GTTS Module
  - Googletrans Module
+ - Playsound Module
+
+### Why SpeechRecognition Module?
+
+This module gives the ability to perform speech recognition, basically, it could be used to convert speech to text operations.
 
 
 ### Why GTTS Module?
@@ -25,9 +29,12 @@ gTTS (Google Text-to-Speech)is a Python library and CLI tool to interface with G
 **Note:** This module helps to convert text as voice output.
 
 
-### Why SpeechRecognition Module?
+### Why Googletrans Module?
 
-This module gives the ability to perform speech recognition, basically, it could be used to convert speech to text operations.
+Googletrans is a free and unlimited python library that implemented Google Translate API. This uses the Google Translate Ajax API to make calls to such methods as detect and translate.
+
+This is core library of this project, which does the translations among languages.
+
 
 ### Why Playsound Module?
 
@@ -37,12 +44,6 @@ playsound is a “pure Python, cross platform, single function module with no de
 from playsound import playsound
 playsound('myfile.wav')
 ```
-
-### Why Googletrans Module?
-
-Googletrans is a free and unlimited python library that implemented Google Translate API. This uses the Google Translate Ajax API to make calls to such methods as detect and translate.
-
-This is core library of this project, which does the translations among languages.
 
 ## Configuration & Setup
 
